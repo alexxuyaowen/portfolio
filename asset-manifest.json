@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2be4507b.css",
-    "main.js": "/portfolio/static/js/main.dfddfb8e.js",
+    "main.css": "/portfolio/static/css/main.6f3ae89b.css",
+    "main.js": "/portfolio/static/js/main.ac498a93.js",
     "static/media/profile.JPG": "/portfolio/static/media/profile.ec543f83bc4697782090.JPG",
     "static/media/ucb-logo.png": "/portfolio/static/media/ucb-logo.f8e508632943d15308b2.png",
     "static/media/background_wall.png": "/portfolio/static/media/background_wall.e6642b07c7b7bf9ef673.png",
@@ -21,11 +21,11 @@
     "static/media/figma-logo.svg": "/portfolio/static/media/figma-logo.72ff35026c53ba574aef54c980db0e8d.svg",
     "static/media/js-logo.svg": "/portfolio/static/media/js-logo.b879f838faf1cb951d1c2230fd933a39.svg",
     "index.html": "/portfolio/index.html",
-    "main.2be4507b.css.map": "/portfolio/static/css/main.2be4507b.css.map",
-    "main.dfddfb8e.js.map": "/portfolio/static/js/main.dfddfb8e.js.map"
+    "main.6f3ae89b.css.map": "/portfolio/static/css/main.6f3ae89b.css.map",
+    "main.ac498a93.js.map": "/portfolio/static/js/main.ac498a93.js.map"
   },
   "entrypoints": [
-    "static/css/main.2be4507b.css",
-    "static/js/main.dfddfb8e.js"
+    "static/css/main.6f3ae89b.css",
+    "static/js/main.ac498a93.js"
   ]
 }
