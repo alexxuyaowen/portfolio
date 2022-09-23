@@ -17,7 +17,7 @@ const Projects = () => (
 
     <img
       src='https://raw.githubusercontent.com/alexxuyaowen/poker/main/demo/menu.png'
-      alt='Maze'
+      alt='Poker'
       onClick={() =>
         window.open('https://github.com/alexxuyaowen/poker', '_blank')
       }
