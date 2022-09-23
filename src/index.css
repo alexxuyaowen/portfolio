@@ -1,0 +1,294 @@
+:root {
+  --berkeley-blue: #003262;
+  --california-gold-hex: #fdb515;
+  --content-background: #fdb41564;
+  --color-active: #3b7ea1;
+  --grey: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: var(--grey);
+  background-image: url('./assets/background_wall.png');
+}
+
+/* Navbar */
+
+.header {
+  position: fixed;
+  z-index: 1;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--california-gold-hex);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 80px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--berkeley-blue);
+}
+
+.navbar a:hover,
+/* .navbar :active, */
+.navbar a.active {
+  color: var(--color-active);
+}
+
+/* Contact */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+}
+
+.contact {
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact:hover {
+  filter: opacity(0.3);
+}
+
+.contact svg {
+  display: inline;
+  transform: scale(3);
+  margin-right: 30px;
+}
+
+.contact h1 {
+  margin-left: 30px;
+  display: inline;
+}
+
+/* Skills */
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.skill {
+  padding: 10px;
+  width: 80%;
+  height: 180px;
+  background-color: var(--content-background);
+  border-radius: 10px;
+}
+
+.skill:hover {
+  background-color: var(--california-gold-hex);
+}
+
+.skill h2 {
+  color: var(--berkeley-blue);
+  font-size: 27px;
+  font-weight: 400;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+}
+
+.logos {
+  display: flex;
+}
+
+.logos img {
+  display: inline-flex;
+  position: relative;
+  bottom: 10px;
+  height: 80px;
+  padding: 0 25px;
+}
+
+#sql {
+  padding-left: 40px;
+}
+
+#jest {
+  position: relative;
+  top: 1px;
+  transform: scale(2.75);
+}
+
+#express {
+  position: relative;
+  top: 8px;
+  height: 50px;
+}
+
+/* Education */
+
+.education {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-box {
+  width: 490px;
+}
+
+.education img {
+  margin: 0 auto 20px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.education h1 {
+  text-align: center;
+}
+
+.education h2 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.education p {
+  font-size: 16px;
+}
+
+.education ul {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.education li {
+  line-height: 2;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.education li:hover {
+  color: var(--california-gold-hex);
+}
+
+/* About */
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20%;
+  gap: 40px;
+}
+
+.about img {
+  height: 300px;
+  border-radius: 50%;
+}
+
+.about p {
+  padding-top: 50px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+/* Experience */
+
+.experiences {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.experience {
+  padding: 5px 30px;
+  width: 70%;
+  background-color: var(--content-background);
+  border-radius: 10px;
+}
+
+.experience:hover {
+  background-color: var(--california-gold-hex);
+}
+
+.experience h2 {
+  margin: 15px 0;
+  color: var(--berkeley-blue);
+}
+
+.experience h3 {
+  margin: 6px 0;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.experience p {
+  margin: 0;
+}
+
+.experience ul {
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.experience li {
+  line-height: 1.5;
+  width: fit-content;
+}
+
+/* Projects */
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projects img {
+  width: 30%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.projects img:hover {
+  opacity: 0.8;
+}
+
+/* General */
+.education,
+/* .experiences, */
+.skills {
+  position: relative;
+  top: 120px;
+}
+
+.about,
+.projects,
+.contacts {
+  position: relative;
+  top: 200px;
+}
