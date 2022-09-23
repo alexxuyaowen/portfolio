@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2be4507b.css",
+    "main.js": "/portfolio/static/js/main.dfddfb8e.js",
+    "static/media/profile.JPG": "/portfolio/static/media/profile.ec543f83bc4697782090.JPG",
+    "static/media/ucb-logo.png": "/portfolio/static/media/ucb-logo.f8e508632943d15308b2.png",
+    "static/media/background_wall.png": "/portfolio/static/media/background_wall.e6642b07c7b7bf9ef673.png",
+    "static/media/express-logo.svg": "/portfolio/static/media/express-logo.75fff9be2f3b289ba7be1f43a08f7a4c.svg",
+    "static/media/jquery-logo.svg": "/portfolio/static/media/jquery-logo.fcc480227fd31fecc887db807010bf1d.svg",
+    "static/media/jest-logo.svg": "/portfolio/static/media/jest-logo.a4aba16f8795b654c9cd0ebeee115dac.svg",
+    "static/media/java-logo.svg": "/portfolio/static/media/java-logo.a351f739f47fda7a637b86ffa530d56a.svg",
+    "static/media/sass-logo.svg": "/portfolio/static/media/sass-logo.8aa78a8393470431c8036541f0708bd7.svg",
+    "static/media/react-logo.svg": "/portfolio/static/media/react-logo.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/sql-logo.svg": "/portfolio/static/media/sql-logo.efb7363b2e231ddf7a5c31626c04099d.svg",
+    "static/media/c-logo.svg": "/portfolio/static/media/c-logo.a776a608546a79750b150829bc9b099e.svg",
+    "static/media/redux-logo.svg": "/portfolio/static/media/redux-logo.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/python-logo.svg": "/portfolio/static/media/python-logo.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/bootstrap-logo.svg": "/portfolio/static/media/bootstrap-logo.98585727bcfe0b1555649ec9bbab236c.svg",
+    "static/media/jira-logo.svg": "/portfolio/static/media/jira-logo.79401e798305efd2db7eaf75a868913b.svg",
+    "static/media/git-logo.svg": "/portfolio/static/media/git-logo.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/figma-logo.svg": "/portfolio/static/media/figma-logo.72ff35026c53ba574aef54c980db0e8d.svg",
+    "static/media/js-logo.svg": "/portfolio/static/media/js-logo.b879f838faf1cb951d1c2230fd933a39.svg",
+    "index.html": "/portfolio/index.html",
+    "main.2be4507b.css.map": "/portfolio/static/css/main.2be4507b.css.map",
+    "main.dfddfb8e.js.map": "/portfolio/static/js/main.dfddfb8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2be4507b.css",
+    "static/js/main.dfddfb8e.js"
+  ]
+}
